@@ -1,0 +1,14 @@
+<div class="alert" [ngClass]="{'alert-success': status,'alert-danger': !status }">
+    <!-- {{status | appStatus}} -->
+    {{visualizarStatus(status)}}
+</div>
+
+<div class="btn btn-primary" (click)="changeValueStatus()">Troca status</div>
+
+<div class="group-info">
+    <div *ngIf="showInfo" class="alert alert-info">
+        Este é um apenas para informar algo.
+    </div>
+
+    <div class="btn btn-outline-primary" (click)="showInfo = !showInfo">Exibir / Remover card</div>
+</div>

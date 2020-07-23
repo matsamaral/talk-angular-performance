@@ -1,0 +1,6 @@
+<div class="btn btn-primary" (click)="emitirValor()">Emit valor</div>
+<div class="btn btn-danger" (click)="showItem = !showItem">Destroi Component</div>
+
+<div class="item-observable" *ngIf="showItem">
+    <app-component-subscription></app-component-subscription>
+</div>
