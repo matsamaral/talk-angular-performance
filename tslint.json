@@ -19,7 +19,7 @@
         "directive-selector": [
             true,
             "attribute",
-            "app",
+            "teste",
             "camelCase"
         ],
         "component-selector": [
