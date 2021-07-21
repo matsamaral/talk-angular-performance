@@ -2,12 +2,6 @@
   "name": "performance-frontend-angular",
   "prettier": "prettier --write src/**/*.{ts,js,css,html}",
   "version": "0.0.0",
-  "husky": {
-    "hooks": {
-      "pre-commit": "ng lint && npm run prettier --staged",
-      "pre-push": "ng build --aot true"
-    }
-  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -57,5 +51,10 @@
     "tslint": "~6.1.0",
     "tslint-config-prettier": "^1.18.0",
     "typescript": "~3.9.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint && npm run build"
+    }
   }
 }
