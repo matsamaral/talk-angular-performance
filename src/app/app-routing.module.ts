@@ -23,6 +23,12 @@ const routes: Routes = [
     // data: { preload: true }
   },
   {
+    path: 'css',
+    loadChildren: () => import('./pages/css/css.module').then(mod => mod.CssModule)
+    // O código abaixo quando adicionado é feito o préload do módulo mesmo que o usuário não passe o mouse sobre o link
+    // data: { preload: true }
+  },
+  {
     path: 'credits',
     loadChildren: () => import('./pages/credits/credits.module').then(mod => mod.CreditsModule)
     // O código abaixo quando adicionado é feito o préload do módulo mesmo que o usuário não passe o mouse sobre o link

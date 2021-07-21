@@ -18,6 +18,11 @@ export class ObservablesComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  /***
+   * Emite valor para disparar quem está inscrito na services
+   *
+   * @return void
+   */
   public emitirValor(): void {
     this.exampleService.emitValue();
   }

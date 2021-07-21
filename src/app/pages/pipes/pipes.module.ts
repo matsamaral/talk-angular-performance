@@ -1,9 +1,9 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 import { PipesComponent } from './pipes.component';
 import { StatusModule } from './../../shared';
-import { RouterModule } from '@angular/router';
 
 @NgModule({
     declarations: [PipesComponent],

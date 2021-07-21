@@ -1,0 +1,65 @@
+%font-heading {
+  font-size: $font-size--heading;
+  font-weight: $font-weight--heading;
+  line-height: $line-height--heading;
+}
+
+@mixin fontHeadingTV() {
+  font-size: $font-size--heading--tv;
+  font-weight: $font-weight--heading--tv;
+  line-height: $line-height--heading--tv;
+}
+
+%font-lg-bold {
+  font-size: $font-size--lg-bold;
+  font-weight: $font-weight--lg-bold;
+  line-height: $line-height--lg-bold;
+}
+
+@mixin fontLgBold() {
+  font-size: $font-size--lg-bold;
+  font-weight: $font-weight--lg-bold;
+  line-height: $line-height--lg-bold;
+}
+
+%font-md-bold {
+  font-size: $font-size--md-bold;
+  font-weight: $font-weight--md-bold;
+  line-height: $line-height--md-bold;
+}
+
+@mixin fontMdBoldTV() {
+  font-size: $font-size--md-bold--tv;
+  font-weight: $font-weight--md-bold--tv;
+  line-height: $line-height--md-bold--tv;
+}
+
+%font-md-regular {
+  font-size: $font-size--md-regular;
+  font-weight: $font-weight--md-regular;
+  line-height: $line-height--md-regular;
+}
+
+@mixin fontMdRegularTV() {
+  font-size: $font-size--md-regular--tv;
+  font-weight: $font-weight--md-regular--tv;
+  line-height: $line-height--md-regular--tv;
+}
+
+%font-sm-bold {
+  font-size: $font-size--sm-bold;
+  font-weight: $font-weight--sm-bold;
+  line-height: $line-height--sm-bold;
+}
+
+@mixin fontSmBoldTV() {
+  font-size: $font-size--sm-bold--tv;
+  font-weight: $font-weight--sm-bold--tv;
+  line-height: $line-height--sm-bold--tv;
+}
+
+%font-sm-regular {
+  font-size: $font-size--sm-regular;
+  font-weight: $font-weight--sm-regular;
+  line-height: $line-height--sm-regular;
+}

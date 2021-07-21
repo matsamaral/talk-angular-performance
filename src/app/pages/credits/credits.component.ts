@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+
 import { AnimationOptions } from 'ngx-lottie';
 
 @Component({
@@ -14,7 +15,6 @@ export class CreditsComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
 }

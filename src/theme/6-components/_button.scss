@@ -1,0 +1,4 @@
+.button-success {
+  background-color: map-get($map: $buttons, $key: success);
+  color: white;
+}
