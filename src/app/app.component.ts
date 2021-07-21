@@ -8,5 +8,5 @@ import { Component } from "@angular/core";
 export class AppComponent {
   title = 'performance-frontend-angular';
   FDSFDS: string = "fdfds";
-  dsadaDSFDS: string = "fdfdsfdsf";
+  dsadaDSFDS: string = "fdddfdsfdsf";
 }
